@@ -1,0 +1,19 @@
+윈도우에서도 명령 끝에 .(점)을 입력하는 것을 잊지마세요 :
+
+command-line
+(myvenv) C:\Users\Name\djangogirls> django-admin.py startproject mysite .
+점 .은 현재 디렉토리에 장고를 설치하라고 스크립트에 알려주기 때문에 중요해요. (축약된 표시입니다)
+
+Note 위 명령을 입력할 때 django-admin.py로 시작하는 부분만 입력하세요. 여기에 보이는 (myvenv) C:\Users\Name\djangogirls>부분은 커맨드 라인에 입력을 가져오게 하는 메세지(프롬프트 prompt)입니다.
+
+django-admin.py은 스크립트로 디렉토리와 파일들을 생성합니다. 스크립트 실행 후에는 아래와 같이 새로 만들어진 디렉토리 구조를 볼 수 있을 거예요.
+
+djangogirls
+├───manage.py
+└───mysite
+        settings.py
+        urls.py
+        wsgi.py
+        __init__.py
+
+변경사항 저장되나?
